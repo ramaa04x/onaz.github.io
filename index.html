@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+
+<html lang="es"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Onaz Estampados - Indumentaria Personalizada</title>
+<!-- Google Fonts: Inter -->
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&amp;display=swap" rel="stylesheet"/>
+<!-- Tailwind CSS CDN -->
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<!-- Font Awesome for Icons -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet"/>
+<script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            brand: {
+              orange: '#FF8C00',
+              black: '#000000',
+              white: '#FFFFFF',
+              gray: '#F3F4F6'
+            }
+          },
+          fontFamily: {
+            sans: ['Inter', 'sans-serif'],
+          }
+        }
+      }
+    }
+  </script>
+<style data-purpose="custom-transitions">
+    .hover-scale {
+      transition: transform 0.3s ease;
+    }
+    .hover-scale:hover {
+      transform: scale(1.02);
+    }
+  </style>
+</head>
+<body class="font-sans antialiased bg-[#121212] text-white">
+<!-- BEGIN: MainHeader -->
+<header class="sticky top-0 z-50 bg-white backdrop-blur-sm border-b border-gray-100 text-brand-black">
+<nav class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+<!-- Logo -->
+<div class="flex items-center gap-2"><img alt="Onaz Estampados Logo" class="h-12 w-auto object-contain" src="MEDIA/logo.png"/></div>
+<!-- Navigation Links -->
+<!-- Social & CTA -->
+<div class="flex items-center space-x-6">
+<div class="hidden lg:flex items-center text-sm text-gray-600 mr-2"><a href="https://maps.app.goo.gl/46Hz4JD1iZGKgSLaA" target="_blank"><i class="fa-solid fa-location-dot text-brand-orange mr-2"></i><span>Menendez y Pelayo 347, CABA</span></a></div><div class="flex items-center space-x-4 text-brand-black">
+<a class="hover:text-brand-orange transition-colors text-lg" href="https://www.instagram.com/onaz.estampados/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+<a class="hover:text-brand-orange transition-colors text-lg" href="https://www.tiktok.com/@onaz.estampados" target="_blank"><i class="fa-brands fa-tiktok"></i></a>
+</div>
+<a class="hidden sm:block bg-brand-orange text-white px-6 py-2.5 rounded-full font-bold text-sm hover:bg-orange-600 transition-all shadow-md" href="https://wa.link/sqnz7y" target="_blank">
+          Cotizar Ahora
+        </a>
+</div>
+</nav>
+</header>
+<!-- END: MainHeader -->
+<main>
+<!-- BEGIN: HeroSection -->
+<section class="relative py-16 lg:py-24 overflow-hidden">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="grid lg:grid-cols-2 gap-12 items-center">
+<div class="z-10" data-purpose="hero-content">
+<span class="inline-flex items-center px-3 py-1 rounded-full text-xs font-bold bg-orange-100 text-brand-orange mb-6">
+<i class="fa-solid fa-certificate mr-2"></i> Calidad Premium en Estampados
+            </span>
+<h1 class="text-5xl lg:text-6xl font-extrabold leading-tight mb-6">
+              Indumentaria Profesional y Personalizada para tu <span class="text-brand-orange">Negocio</span>
+</h1>
+<p class="text-lg mb-10 max-w-xl text-gray-300">Estampamos todo tipo de indumentaria para tu empresa o negocio. Ofrecemos producto terminado con tu logo por mayor y menor. Cotización gratis y envío a todo el país!</p>
+<div class="flex flex-col sm:flex-row gap-4">
+<a class="flex items-center justify-center bg-brand-orange text-white px-8 py-4 rounded-xl font-bold text-lg hover:bg-orange-600 transition-all shadow-lg hover:shadow-orange-200" href="https://wa.link/sqnz7y" target="_blank">
+<i class="fa-brands fa-whatsapp mr-2 text-xl"></i> Cotizar por WhatsApp
+              </a>
+<a class="flex items-center justify-center bg-white border-2 border-brand-black text-brand-black px-8 py-4 rounded-xl font-bold text-lg hover:bg-gray-50 transition-all" href="mailto:andreacarinallorens@gmail.com" target="_blank">
+<i class="fa-regular fa-envelope mr-2 text-xl"></i> Enviar un Email
+              </a>
+</div>
+</div>
+<div class="relative" data-purpose="hero-image"><div class="relative h-[500px] lg:h-[600px] w-full">
+<!-- Image 1: Main Focus -->
+<div class="absolute top-0 right-0 w-2/3 h-4/5 rounded-3xl overflow-hidden shadow-2xl z-10 hover-scale transition-all duration-500">
+<img alt="Indumentaria Profesional" class="w-full h-full object-cover" src="MEDIA/9.png"/>
+</div>
+<!-- Image 2: Bottom Left Overlap -->
+<div class="absolute bottom-0 left-0 w-1/2 h-1/2 rounded-2xl overflow-hidden shadow-xl z-20 border-4 border-[#121212] hover-scale transition-all duration-500">
+<img alt="Ropa Personalizada" class="w-full h-full object-cover" src="MEDIA/11.jpg"/>
+</div>
+<!-- Image 3: Top Left Small -->
+<div class="absolute top-10 left-10 w-1/3 h-1/3 rounded-xl overflow-hidden shadow-lg z-0 opacity-60 hover:opacity-100 hover-scale transition-all">
+<img alt="Merchandising" class="w-full h-full object-cover" src="MEDIA/3.jpg"/>
+</div>
+<!-- Image 4: Bottom Right Peeking -->
+<div class="absolute bottom-10 right-10 w-1/4 h-1/4 rounded-xl overflow-hidden shadow-lg z-30 border-2 border-brand-orange/30 hover-scale">
+<img alt="Estampados" class="w-full h-full object-cover" src="MEDIA/12.jpg"/>
+</div>
+<!-- Image 5: Center Right -->
+<div class="absolute top-1/2 -right-4 w-32 h-32 rounded-full overflow-hidden shadow-lg z-40 border-4 border-white/10 hover-scale rotate-12">
+<img alt="Detalle 1" class="w-full h-full object-cover" src="MEDIA/2.jpg"/>
+</div>
+<!-- Image 6: Top Right Accent -->
+<div class="absolute -top-4 right-20 w-24 h-24 rounded-2xl overflow-hidden shadow-lg z-20 -rotate-12 border-2 border-brand-orange hover-scale">
+<img alt="Detalle 2" class="w-full h-full object-cover" src="MEDIA/10.jpg"/>
+</div>
+<!-- Decorative element -->
+<div class="absolute -bottom-10 -left-10 w-48 h-48 bg-brand-orange/10 rounded-full -z-10 blur-2xl"></div>
+</div></div>
+</div>
+</div>
+</section>
+<!-- END: HeroSection -->
+<!-- BEGIN: FeaturesSection -->
+<section class="py-12 border-y border-gray-100 bg-[#1a1a1a]" id="calidad">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="grid md:grid-cols-3 gap-8">
+<div class="flex items-center gap-4 p-4">
+<div class="w-12 h-12 flex items-center justify-center bg-white rounded-xl shadow-sm border border-gray-100 text-brand-orange"><i class="fa-solid fa-shirt text-xl"></i></div>
+<div>
+<h3 class="font-bold">Todo tipo de indumentaria</h3>
+<p class="text-sm text-gray-400 text-gray-300">Materiales de primera línea</p>
+</div>
+</div>
+<div class="flex items-center gap-4 p-4">
+<div class="w-12 h-12 flex items-center justify-center bg-white rounded-xl shadow-sm border border-gray-100 text-brand-orange">
+<i class="fa-solid fa-headset text-xl"></i>
+</div>
+<div>
+<h3 class="font-bold">Atención Personalizada</h3>
+<p class="text-sm text-gray-400 text-gray-300">Asesoramiento en cada paso</p>
+</div>
+</div>
+<div class="flex items-center gap-4 p-4">
+<div class="w-12 h-12 flex items-center justify-center bg-white rounded-xl shadow-sm border border-gray-100 text-brand-orange">
+<i class="fa-solid fa-truck-fast text-xl"></i>
+</div>
+<div>
+<h3 class="font-bold">Envíos a Todo el País</h3>
+<p class="text-sm text-gray-400 text-gray-300">Logística rápida y segura</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- END: FeaturesSection -->
+<!-- BEGIN: ServicesSection -->
+<section class="pt-24 pb-12" id="servicios">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="text-center mb-16">
+<h2 class="text-4xl font-extrabold mb-4">Nuestros Servicios</h2>
+<div class="w-24 h-1.5 bg-brand-orange mx-auto rounded-full"></div>
+</div>
+<div class="grid md:grid-cols-3 gap-10">
+<!-- Card 1: Negocios y Pymes -->
+<article class="border rounded-3xl p-8 shadow-sm hover:shadow-xl transition-shadow flex flex-col hover-scale bg-[#1e1e1e] border-white/10">
+<div class="w-12 h-12 bg-orange-50 rounded-lg flex items-center justify-center text-brand-orange mb-6">
+<i class="fa-solid fa-briefcase"></i>
+</div>
+<h3 class="text-xl font-bold mb-3">Empresas</h3>
+<p class="text-sm mb-8 text-gray-300">Uniformes corporativos y ropa de trabajo personalizada para tu equipo por mayor.</p>
+<div class="mt-auto rounded-2xl overflow-hidden bg-gray-100 h-64">
+<img alt="Empresas" class="w-full h-full object-cover" src="MEDIA/22.png"/>
+</div>
+</article>
+<!-- Card 2: Empresas -->
+<article class="border rounded-3xl p-8 shadow-sm hover:shadow-xl transition-shadow flex flex-col hover-scale bg-[#1e1e1e] border-white/10">
+<div class="w-12 h-12 bg-orange-50 rounded-lg flex items-center justify-center text-brand-orange mb-6">
+<i class="fa-solid fa-shop"></i>
+</div>
+<h3 class="text-xl font-bold mb-3">Negocios y Marcas</h3>
+<p class="text-sm mb-8 text-gray-300">Indumentaria promocional, remeras para staff, merchandising y productos personalizados para tu marca.</p>
+<div class="mt-auto rounded-2xl overflow-hidden bg-gray-100 h-64">
+<img alt="Negocios y Marcas" class="w-full h-full object-cover" src="MEDIA/23.PNG"/>
+</div>
+</article>
+<!-- Card 3: Particulares -->
+<article class="border rounded-3xl p-8 shadow-sm hover:shadow-xl transition-shadow flex flex-col hover-scale bg-[#1e1e1e] border-white/10">
+<div class="w-12 h-12 bg-orange-50 rounded-lg flex items-center justify-center text-brand-orange mb-6">
+<i class="fa-solid fa-user"></i>
+</div>
+<h3 class="text-xl font-bold mb-3">Particulares</h3>
+<p class="text-sm mb-8 text-gray-300">Ropa para eventos, equipos deportivos y diseños únicos por menor.</p>
+<div class="mt-auto rounded-2xl overflow-hidden bg-gray-100 h-64">
+<img alt="Particulares" class="w-full h-full object-cover" src="MEDIA/24.jpg"/>
+</div>
+</article>
+</div>
+</div>
+</section><div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="border-t border-white/10 w-full"></div>
+</div><section class="bg-[#121212] pt-12 pb-24" id="trabajos-realizados">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="text-center mb-16">
+<h2 class="text-4xl font-extrabold mb-4">+20 años brindando calidad</h2>
+<div class="w-24 h-1.5 bg-brand-orange mx-auto rounded-full"></div>
+</div>
+<div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-4">
+<!-- Row 1 -->
+<div class="aspect-square rounded-2xl overflow-hidden bg-[#1e1e1e] border border-white/10 hover-scale">
+<img alt="Trabajo 1" class="w-full h-full object-cover opacity-80 hover:opacity-100 transition-opacity" src="MEDIA/1.jpg"/>
+</div>
+<div class="aspect-square rounded-2xl overflow-hidden bg-[#1e1e1e] border border-white/10 hover-scale">
+<img alt="Trabajo 2" class="w-full h-full object-cover opacity-80 hover:opacity-100 transition-opacity" src="MEDIA/10.jpg"/>
+</div>
+<div class="aspect-square rounded-2xl overflow-hidden bg-[#1e1e1e] border border-white/10 hover-scale">
+<img alt="Trabajo 3" class="w-full h-full object-cover opacity-80 hover:opacity-100 transition-opacity" src="MEDIA/11.jpg"/>
+</div>
+<div class="aspect-square rounded-2xl overflow-hidden bg-[#1e1e1e] border border-white/10 hover-scale">
+<img alt="Trabajo 4" class="w-full h-full object-cover opacity-80 hover:opacity-100 transition-opacity" src="MEDIA/12.jpg"/>
+</div>
+<div class="aspect-square rounded-2xl overflow-hidden bg-[#1e1e1e] border border-white/10 hover-scale">
+<img alt="Trabajo 5" class="w-full h-full object-cover opacity-80 hover:opacity-100 transition-opacity" src="MEDIA/13.jpg"/>
+</div>
+<div class="aspect-square rounded-2xl overflow-hidden bg-[#1e1e1e] border border-white/10 hover-scale">
+<img alt="Trabajo 6" class="w-full h-full object-cover opacity-80 hover:opacity-100 transition-opacity" src="MEDIA/14.jpg"/>
+</div>
+<!-- Row 2 -->
+<div class="aspect-square rounded-2xl overflow-hidden bg-[#1e1e1e] border border-white/10 hover-scale">
+<img alt="Trabajo 7" class="w-full h-full object-cover opacity-80 hover:opacity-100 transition-opacity" src="MEDIA/15.jpg"/>
+</div>
+<div class="aspect-square rounded-2xl overflow-hidden bg-[#1e1e1e] border border-white/10 hover-scale">
+<img alt="Trabajo 8" class="w-full h-full object-cover opacity-80 hover:opacity-100 transition-opacity" src="MEDIA/16.jpg"/>
+</div>
+<div class="aspect-square rounded-2xl overflow-hidden bg-[#1e1e1e] border border-white/10 hover-scale">
+<img alt="Trabajo 9" class="w-full h-full object-cover opacity-80 hover:opacity-100 transition-opacity" src="MEDIA/17.jpg"/>
+</div>
+<div class="aspect-square rounded-2xl overflow-hidden bg-[#1e1e1e] border border-white/10 hover-scale">
+<img alt="Trabajo 10" class="w-full h-full object-cover opacity-80 hover:opacity-100 transition-opacity" src="MEDIA/18.jpg"/>
+</div>
+<div class="aspect-square rounded-2xl overflow-hidden bg-[#1e1e1e] border border-white/10 hover-scale">
+<img alt="Trabajo 11" class="w-full h-full object-cover opacity-80 hover:opacity-100 transition-opacity" src="MEDIA/21.png"/>
+</div>
+<div class="aspect-square rounded-2xl overflow-hidden bg-[#1e1e1e] border border-white/10 hover-scale">
+<img alt="Trabajo 12" class="w-full h-full object-cover opacity-80 hover:opacity-100 transition-opacity" src="MEDIA/20.JPG"/>
+</div>
+<!-- Row 3 -->
+
+</div>
+</div>
+</section><div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="border-t border-white/10 w-full"></div>
+</div>
+<!-- END: ServicesSection -->
+<!-- BEGIN: CTASection -->
+<section class="py-20" id="contacto">
+<div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="rounded-[2.5rem] text-center text-white shadow-2xl relative overflow-hidden bg-gray-100 p-6 md:p-10" style="background-image: linear-gradient(rgba(243, 244, 246, 0.9), rgba(243, 244, 246, 0.9)), url('MEDIA/logo.png'); background-size: contain; background-repeat: no-repeat; background-position: center;">
+<!-- Background decoration -->
+<div class="absolute top-0 right-0 -mr-20 -mt-20 w-64 h-64 bg-white/10 rounded-full blur-3xl"></div>
+<h2 class="text-4xl md:text-5xl font-extrabold mb-6 relative z-10 text-brand-black">¿Listo para empezar?</h2>
+<p class="text-lg md:text-xl mb-10 max-w-2xl mx-auto relative z-10 text-gray-300 text-gray-600">
+            Estamos listos para ayudarte con tu próximo proyecto de indumentaria. Contactanos hoy mismo y obtené un presupuesto a medida.
+          </p>
+<div class="relative z-10 flex flex-col items-center gap-6">
+<a class="inline-flex items-center justify-center text-white px-10 py-5 rounded-2xl font-extrabold text-xl shadow-xl hover:bg-orange-600 transition-all hover-scale bg-[#121212]" href="https://wa.link/sqnz7y" target="_blank"><i class="fa-brands fa-whatsapp mr-3 text-2xl"></i> Contactanos por WhatsApp</a>
+</div>
+</div>
+</div>
+</section>
+<!-- END: CTASection -->
+</main>
+<!-- BEGIN: Footer -->
+<footer class="border-t py-12 bg-[#121212] border-white/10">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8"><!-- Upper Level -->
+<div class="flex flex-col md:flex-row justify-between items-center gap-8 mb-8 pb-8 border-b border-white/10">
+<!-- Left: Logo -->
+<div class="flex items-center">
+<img alt="Onaz Estampados Logo" class="h-12 w-auto object-contain" src="MEDIA/logo.png"/>
+</div>
+<!-- Center: Social Icons -->
+<div class="flex items-center gap-6 text-xl">
+<a class="hover:text-brand-orange transition-colors text-gray-400" href="https://www.tiktok.com/@onaz.estampados" target="_blank"><i class="fa-brands fa-tiktok"></i></a>
+<a class="hover:text-brand-orange transition-colors text-gray-400" href="https://www.instagram.com/onaz.estampados" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+<a class="hover:text-brand-orange transition-colors text-gray-400" href="https://wa.link/sqnz7y" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+<a class="hover:text-brand-orange transition-colors text-gray-400" href="mailto:andreacarinallorens@gmail.com" target="_blank"><i class="fa-regular fa-envelope"></i></a>
+</div>
+<!-- Right: Address -->
+<div class="flex items-center text-sm text-gray-400"><a href="https://maps.app.goo.gl/46Hz4JD1iZGKgSLaA" target="_blank">
+<i class="fa-solid fa-location-dot text-brand-orange mr-2"></i>
+<span>Menendez y Pelayo 347, CABA</span>
+</a></div>
+</div>
+<!-- Lower Level -->
+<div class="text-center">
+<p class="text-sm text-gray-500">
+    © 2026 Onaz Estampados. Todos los derechos reservados.
+  </p>
+</div></div>
+</footer>
+<!-- END: Footer -->
+</body></html>
